@@ -5,9 +5,9 @@ EduProtocol is an open-source educational platform built around a value-exchange
 
 The core idea is simple yet powerful:
 
--Anyone can offer learning sessions for skills they possess.
--By teaching others, they earn internal tokens.
--These tokens can then be used to learn new skills from other members of the community.
+1-Anyone can offer learning sessions for skills they possess.
+2-By teaching others, they earn internal tokens.
+3-These tokens can then be used to learn new skills from other members of the community.
 
 
 The platform aims to create a sustainable learning economy driven by participation, interaction, and the real value of knowledge.
@@ -15,45 +15,55 @@ The platform aims to create a sustainable learning economy driven by participati
 
 🎯 Project Goals
 
--Encourage self-directed and continuous learning
--Empower individuals to share their expertise and gain value in return
--Build an internal, symbolic digital token economy
--Create a scalable and maintainable backend architecture
--Enable collaboration and contributions from developers
+1-Encourage self-directed and continuous learning
+2-Empower individuals to share their expertise and gain value in return
+3-Build an internal, symbolic digital token economy
+4-Create a scalable and maintainable backend architecture
+5-Enable collaboration and contributions from developers
 
 
 🧩 Features
 
--Internal digital token system (Token Economy)
--Flexible educational sessions (short / long)
--Users CRUD management
--Educational session management
--Rating and feedback system to improve content quality
--Digital identity per user with achievements and learning history
--RESTful API built with Express.js
--Clean, scalable, and extensible project structure
--Ready for future frontend integration
+1-Internal digital token system (Token Economy)
+2-Flexible educational sessions (short / long)
+3-Users CRUD management
+4-Educational session management
+5-Rating and feedback system to improve content quality
+6-Digital identity per user with achievements and learning history
+7-RESTful API built with Express.js
+8-Clean, scalable, and extensible project structure
+9-Ready for future frontend integration
 
 
 🛠️ Technologies Used
 
--Node.js
--Express.js
--Database: MySQL or PostgreSQL
--Git & GitHub for Version Management
--(Future) JWT / Auth / Roles
+1-Node.js
+2-Express.js
+3-Database: MySQL or PostgreSQL
+4-Git & GitHub for Version Management
+5-(Future) JWT / Auth / Roles
 
 EduProtocol/
+
+
 │
 ├── backend/
+
+
+
 │   ├── src/
+
+
 │   │   ├── routes/
 │   │   ├── controllers/
 │   │   ├── services/
 │   │   ├── models/
 │   │   └── app.js
+
+
 │   ├── package.json
 │   └── .env.example
+
 │
 ├── README.md
 └── .gitignore
@@ -68,7 +78,7 @@ Database (MySQL or PostgreSQL)
 
 Steps
 # Clone the project
-git clone https://github.com/USERNAME/EduProtocol.git
+git clone https://github.com/Alarin-dev/Eduprotocol.git
 
 # Navigate to the folder
 cd EduProtocol/backend
