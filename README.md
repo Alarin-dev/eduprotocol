@@ -45,7 +45,11 @@ Working on HTML/CSS structure and implementing UI layouts.
 Responsible for JavaScript logic, interactivity, and frontend integration.
 
 
-4-Lulua — Graphic Designer
+4- Frontend Assistant: Dima
+  Assisting with basic HTML/CSS tasks under supervision.
+
+
+5-Lulua — Graphic Designer
 
 Designing the visual identity, UI mockups, and overall user experience.
 
