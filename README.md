@@ -1,6 +1,6 @@
 EduProtocol
 
-EduProtocol is an open-source educational platform built around a value-exchange learning model powered by an internal digital token system.
+EduProtocol is an educational platform built around a value-exchange learning model powered by an internal digital token system.
 
 
 The core idea is simple yet powerful:
@@ -22,6 +22,21 @@ The platform aims to create a sustainable learning economy driven by participati
 5-Enable collaboration and contributions from developers
 
 
+🧑‍💻 Tech Team & Roles
+1-Jameel — Backend Lead
+Responsible for backend architecture, API design, and system logic.
+
+2-картошка с яйцом — Frontend Developer
+Working on HTML/CSS structure and implementing UI layouts.
+
+3-Aram — Frontend Developer
+Responsible for JavaScript logic, interactivity, and frontend integration.
+
+4-Lulua — Graphic Designer
+Designing the visual identity, UI mockups, and overall user experience.
+
+
+
 🧩 Features
 
 1-Internal digital token system (Token Economy)
@@ -39,7 +54,7 @@ The platform aims to create a sustainable learning economy driven by participati
 
 1-Node.js
 2-Express.js
-3-Database: MySQL or PostgreSQL
+3-(Future)Database: MySQL or PostgreSQL
 4-Git & GitHub for Version Management
 5-(Future) JWT / Auth / Roles
 
