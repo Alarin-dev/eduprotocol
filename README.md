@@ -45,7 +45,8 @@ Working on HTML/CSS structure and implementing UI layouts.
 Responsible for JavaScript logic, interactivity, and frontend integration.
 
 
-4- Frontend Assistant: Dima
+4- Dima -- Frontend Assistant
+
   Assisting with basic HTML/CSS tasks under supervision.
 
 
