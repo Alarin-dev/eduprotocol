@@ -1,0 +1,65 @@
+body{
+	  background-color: silver;
+  }
+  .title {
+	  	color: black;
+			size: 10px;
+				text-align: center;
+			}
+			.info1{
+				    color: black;
+				        size: 10px;
+					    text-align: center;
+				    }
+
+				    ul {
+					      list-style-type: none;
+					        margin: 0;
+						  width: 100%;
+						    padding: 0;
+						      background-color: #333333;
+						        display: flex;
+							  position: sticky;
+							    top: 0;
+						    }
+
+						    ul li{
+							    float: left;
+							    border-right: 1px solid grey;
+						    }
+
+						    ul li a.active {
+							      background-color: grey;
+							        color: white;
+							}
+
+							ul li a:hover:not(.active) {
+								  background-color: #555555;
+								    color: white;
+							    }
+
+							    ul li:last-child{
+								    border-right: none;
+							    }
+
+
+							    ul li a {
+								      display: block;
+								        color: white;
+									  padding: 14px 16px;
+									    text-decoration: none;
+								    }
+
+								    ul li a:hover {
+									      background-color: #111111;
+								      }
+
+
+								      footer {
+									        display: block;
+										  text-align: center;
+										    padding: 1px;
+										      background-color: #333333;
+										        color: white;
+											  flex: auto;
+										  }
