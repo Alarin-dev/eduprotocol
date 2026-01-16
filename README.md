@@ -50,7 +50,7 @@ Responsible for JavaScript logic, interactivity, and frontend integration.
   Assisting with basic HTML/CSS tasks under supervision.
 
 
-5-Lulua — Graphic Designer
+5-Pearl — Graphic Designer
 
 Designing the visual identity, UI mockups, and overall user experience.
 
