@@ -30,12 +30,12 @@ The platform aims to create a sustainable learning economy driven by participati
 
 🧑‍💻 Tech Team & Roles
 
-1-Jameel — Backend Lead
+1-Alarin — Backend Lead
 
 Responsible for backend architecture, API design, and system logic.
 
 
-2-картошка с яйцом — Frontend Developer
+2-kuro — Frontend Developer
 
 Working on HTML/CSS structure and implementing UI layouts.
 
