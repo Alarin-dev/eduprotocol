@@ -1,0 +1,99 @@
+/* Reset */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+/*	font-family Arial, Helvetica, sans-serif; */
+ }
+
+/* Page background */
+ body {
+	 height: 100vh;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 background: linear-gradient(#e5ffff);
+ }
+
+ /* The white card */
+ main, section, .container {
+	 background: #ffffff;
+	 padding: 40px;
+	 width: 350px;
+	 border-radius: 20px;
+	 box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1)
+	 text-align: center;
+ }
+
+/* Title */
+h1 {
+	margin-bottom: 10px;
+	font-size: 26px;
+	color: #073a82;
+}
+
+/* Subtitle */
+p {
+	color: #36426b;
+	margin-top: 7px;
+	margin-bottom: 25px;
+	font-size: 14px;
+}
+
+/*The form*/
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-top: 25px;
+}
+
+/*Lebels*/
+
+/*Fields*/
+input {
+	display: block;
+	padding: 14px;
+	border-radius: 12px;
+	border: 1px solid #bee0e0;
+	font-size: 14px;
+	transition: 0.3s;
+}
+
+/*When clicking on fields*/
+input:focus {
+	outline: none;
+	border-color: #0a71ad;
+	box-shadow: 0 0 0 3px rgba(10, 113, 173, 0.2)
+}
+
+/*Sign up button*/
+button {
+	margin-top: 10px;
+	padding: 14px;
+	border: none;
+	border-radius: 50px;
+	background: linear-gradient(135deg, #073a82, #0a71ad);
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3;
+}
+
+/*Hover effect*/
+button:hover {
+	background: linear-gradient(135deg, #0a71ad, #073a82)
+	opacity: 0.9;
+	transform: translatey(-2px);
+}
+
+/* Links */
+a {
+	font-size: 13px;
+	color: #0a71ad;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #88ffff
+}
