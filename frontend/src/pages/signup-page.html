@@ -21,12 +21,12 @@
 				<div id="headingSubtext">
 					<span>Create account to start your learning journey</span>
 				<div/>
-				<form>
+				<form id="signup-form">
 					<!--Name field-->
 					<label>Name</label>
 					<input
 					type="text"
-					id="name"
+					name="name"
 					placeholder="Type your name or nickname"
 					size="30"
 					required>
@@ -35,7 +35,7 @@
 					<label>Email</label>       
 					<input
 				        type="email"
-				        id="email"
+				        name="email"
         			        placeholder="Type your email"
         			        size="30"
 					required>
@@ -44,7 +44,7 @@
 					<label>Password</label>
 					<input
 					type="password"
-					id="password"
+					name="password"
 					placeholder="Set a password"
 					size="30"
 					required>
@@ -65,8 +65,14 @@
 					size="30"
 					>Get Started</button>
 				</form>
-				<p>Already have an account?  <a href="#">Log in</a>
+				<p>Already have an account?  <a href="login-page.html">Log in</a>
 				</P>
+		<!--		<script
+					src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"
+				></script> -->
+				<script
+					type="module" src="signup.js"
+				></script>
 
 			</section>
 		</main>

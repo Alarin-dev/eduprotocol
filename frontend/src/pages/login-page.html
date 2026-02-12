@@ -21,12 +21,12 @@
 				<div id="headingSubtext">
 					<span>Log in to your account</span>
 				<div/>
-				<form>
+				<form id="login-form">
 					<!--Email field-->
 					<label>Email</label>       
 					<input
 				        type="email"
-				        id="email"
+				        name="email"
         			        placeholder="Type your email"
         			        size="30"
 					required>
@@ -35,7 +35,7 @@
 					<label>Password</label>
 					<input
 					type="password"
-					id="password"
+					name="password"
 					placeholder="Type your password"
 					size="30"
 					required>
@@ -47,8 +47,10 @@
 					size="30"
 					>Log In</button>
 				</form>
-				<p>don`t have an account?  <a href="#">Sing Up</a>
+				<p>don`t have an account?  <a href="signup-page.html">Sing Up</a>
 				</P>
+				<script type="module" src="login.js"
+				></script>
 
 			</section>
 		</main>
