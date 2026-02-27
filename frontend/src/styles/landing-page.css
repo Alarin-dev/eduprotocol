@@ -1,17 +1,59 @@
-  
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap');
+*{
+  box-sizing: border-box;
+}
   body{
-    background-color:#fff8ee;
+    background-color:#e5ffff;
+    font-family: 'baloo 2' , Times;
+    padding-top: 60px;
+    
   }
+header{
+  display: flex;
+   justify-content: space-between;
+  background-color: #bee0e0;
+  
+  top: 0;
+  left: 0;
+  position:  absolute;
+  width: 100%;
+  z-index: 1000;
+  padding: 5px;
+}
+.logo{
+  display:flex;
+}
+.page { 
+  display: none; 
+}
+.active { 
+  display: block;
+}
+header ul{
+  list-style:  none;
+  padding: 0;
+  margin: 0;
+}
+
+
   p{
-    color:#2b261f;
+    color:#073a82;
     text-align: center;
+    font-size: 1rem;
   }
   h1{
-    color:#2b261f;
+    color:#36426b;
     text-align: center;
+    background-color:#bee0e0;
+    border-radius: 10rem;
+    width: 16rem;
+    margin: 0 auto;
+    font-family: nunito;
   }
   h2{
-    color:#2b261f;
+    color:#0a71ad;
     text-align:center;
   }
   hr{
@@ -20,6 +62,106 @@
   }
   a{
     color:#332f27;
-  }
-
-
+}
+.cloud{
+  width:12rem;
+  height:8rem;
+  background-color:#ffffff;
+  border-radius:100rem;
+  border: 0.1rem black solid;
+  position:relative;
+  
+}
+.contain{
+  display: flex;
+  justify-content: flex-start;
+  align-items:  center;
+  gap:1rem;
+  
+}
+.cloud::before{
+  content: "";
+  border: 1.4rem solid transparent;
+  border-top-color: #000000;
+  bottom: 1.2rem;
+  left: -2.55rem;
+  rotate: 90deg;
+  position: absolute;
+}
+.cloud::after{
+  content: "";
+  border: 1.4rem solid transparent;
+  border-top-color: #ffffff;
+  bottom: 1.2rem;
+  left: -2.4rem;
+  rotate: 90deg;
+  position: absolute;
+}
+.cloudTwo{
+  width:20rem;
+  height:12rem;
+  background-color:#ffffff;
+  border-radius:100rem;
+  border: 0.1rem black solid;
+  position: relative;
+}
+.cloudTwo::before{
+  content: "";
+  border: 1.4rem solid transparent;
+  border-top-color: #000000;
+  bottom:4.5rem;
+  left: 15rem;
+  transform: rotate(270deg);
+  position: absolute;
+}
+.cloudTwo::after{
+  content: "";
+  border: 1.4rem solid transparent;
+  border-top-color: #ffffff;
+  bottom:4.5rem;
+  left: 14.85rem;
+  transform: rotate(270deg);
+  position: absolute;
+}
+#box{
+  display:flex;
+  gap:1rem;
+  align-items: center;
+  
+}
+p.container{
+  background-color:#bee0e0;
+  border-radius:10rem;
+  padding-inline:0.3rem;
+  color:#073a82;
+  margin-inline-start: 9.5rem;
+}
+button{
+  border: none;
+  background-color:#bee0e0;
+  color:#073a82;
+  border-radius:10rem;
+  padding:0.25rem;
+  font-family: 'baloo 2' , cursive;
+  font-size: 0.9rem;
+}
+#two{
+  padding-inline-start:1rem;
+}
+#cloudone {
+  height: 5.5rem;
+}
+.clouds-p{
+  margin-block-start:1rem;
+  padding-inline: 1rem;
+}
+#clouone{
+  margin-block-start: 1.2rem;
+}
+#exploreBtn{
+  display: none;
+} 
+#previousBtn{
+  display: none;
+  margin-inline-start: 4.8rem;
+}
