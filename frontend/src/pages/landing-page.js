@@ -27,7 +27,6 @@ document.getElementById('previousBtn').addEventListener('click', function() {
 
   if (currentPage === 1) {
     this.style.display = 'none';
-    document.querySelector('p.container').style.marginInlineStart = '9.5rem';
   }
 
   document.getElementById('nextBtn').style.display = 'inline-block';
